@@ -21,7 +21,7 @@ jobs:
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots package
   test:
-    name: TEST API GET ALL
+    name: TEST API GET ALL BRANCH F1
     needs: BUILD
     runs-on: ubuntu-latest
     steps:
